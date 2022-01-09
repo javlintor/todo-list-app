@@ -1,0 +1,70 @@
+.task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.content{
+    display: flex;
+    flex: 3;
+    max-width: 80%;
+    background-color: var(--grey2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content input {
+    width: 90%;
+    color: var(--lightGrayishBlue);
+}
+
+.content .edit-text {
+    color: var(--grey1);
+}
+
+
+.actions{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+
+.iconify {
+    font-size: 1.2rem;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.iconify:hover {
+    opacity: 1;
+}
+
+.edit-button{
+    background-color: var(--blue2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.save-button {
+    background-color: var(--green1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.delete-button{
+    background-color: var(--red1);
+    border-radius: 10px;
+    padding: 10px;
+}

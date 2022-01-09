@@ -1,0 +1,30 @@
+#new-task-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#new-task-text {
+    flex-grow: 1;
+    background-color: var(--grey2);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--veryLightGray);
+}
+
+#new-task-submit {
+    margin: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--blue2), var(--green1));
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 0.7;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#new-task-submit:hover {
+    opacity: 1;
+    font-size: 1.3rem;
+}
